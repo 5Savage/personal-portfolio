@@ -1,15 +1,51 @@
-body{
-    background-color: #FBF3E4;
+:root {
+    --burgundy--:#B91646;
+    --bg-color:#FBF3E4;
+    --cursive-font:'Alex Brush',
+            cursive;
+    --paragraph-font: 'Poppins',
+        sans-serif;
+    --bold-font:'Bayon',
+        sans-serif;
 }
 
-h1{font-family:'Mrs Saint Delafield',
-    cursive;}
-h2{
-    font-family: 'Bayon',
-        sans-serif;
-    
+body{
+    background-color: var(--bg-color);
+    margin: 150px 0;
 }
-p{
-    font-family:'Poppins',
-        sans-serif ;
+h1{
+    font-family:var(--bold-font);
+    font-size: 120px;
+    margin: 0;   
+    line-height: 1; 
+}
+.head, p{
+    margin: 0;
+    font-family: var(--cursive-font);
+    font-size: 100px;  
+    line-height: 0.5;
+    color: var(--burgundy--);
+
+}
+h1,p{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: var(--bg-color);
+    max-width: 100%;
+    padding: 5px 40px;
+    font-family:var(--paragraph-font);
+    font-size: 27px ;  
+    font-weight: 300;  
+    
+  
+}
+.name{
+    display: flex;
+    justify-content: center;
 }
