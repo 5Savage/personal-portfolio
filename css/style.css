@@ -45,9 +45,19 @@ h2{
     font-family:var(--paragraph-font);
     font-size: 27px ;  
     font-weight: 300;  
-    
-  
 }
+
+h3{
+    font-family: var(--bold-font);
+    font-size: 50px;
+    text-align: center;
+}
+p { font-family: var(--paragraph-font);
+    font-size: 25px;
+    line-height: 1;
+    color: black;
+    font-weight: 300;
+    }
 .name{
     display: flex;
     justify-content: center;
