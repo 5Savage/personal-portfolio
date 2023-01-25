@@ -1,6 +1,9 @@
 :root {
     --burgundy--:#B91646;
+    --dark-green:#105652;
+    --mustard-yellow:#F9C041;
     --bg-color:#FBF3E4;
+    --bg-color-dark-grey:#DFD8CA;
     --cursive-font:'Alex Brush',
             cursive;
     --paragraph-font: 'Poppins',
@@ -36,7 +39,7 @@ h2{
     justify-content: center;
     border: 2px solid black;
     border-radius: 5px;
-    background: var(--bg-color);
+    background: var(--bg-color-dark-grey);
     max-width: 100%;
     padding: 5px 40px;
     font-family:var(--paragraph-font);
