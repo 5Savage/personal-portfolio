@@ -78,14 +78,29 @@ p { font-family: var(--paragraph-font);
  .reviewsPic,img{
     margin-top: 120px;
  }
+
+ .meImg,img{
+    margin-right: 70px;
+    padding: 40px;
+    background: var(--burgundy--);
+ }
+ .paragraph1, div{
+   padding: 50px;
+ }
+ .paragraph2, div{
+    padding: 50px;
+ }
 .name{
     display: flex;
     justify-content: center;
 }
+.aboutContainer{
+    
+}
 
 .heading{
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: white;
     
 }
