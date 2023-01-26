@@ -83,7 +83,6 @@ p { font-family: var(--paragraph-font);
     padding: 30px;
  }
 
- 
  .reviewsPic,img{
     margin-top: 120px;
     background: var(--bg-color-dark-grey);
@@ -96,9 +95,12 @@ p { font-family: var(--paragraph-font);
     margin-left:0;
     padding: 35px;
     background: var(--burgundy--);
+    margin-top: 75px;
  }
  .paragraph1, div{
    padding: 50px;
+   
+   
  }
  .paragraph2, div{
     padding: 50px;
