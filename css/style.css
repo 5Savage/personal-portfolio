@@ -62,21 +62,24 @@ p { font-family: var(--paragraph-font);
     font-weight: 300;
     }
  img{
-    background: var(--bg-color-dark-grey);
+    
     padding: 25px;
     border: 3px solid black;
     border-radius: 15px;
  }  
  .bella, img{
     margin-top: 100px;
+    background: var(--bg-color-dark-grey);
  } 
  .weatherPic, img{
     margin-left: 70px;
     margin-top: 190px;
+    background: var(--bg-color-dark-grey);
  }
  
  .reviewsPic,img{
     margin-top: 120px;
+    background: var(--bg-color-dark-grey);
  }
 
  .meImg,img{
