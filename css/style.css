@@ -14,7 +14,7 @@
 
 body{
     background-color: var(--bg-color);
-    margin: 150px 0;
+    
 }
 h1{
     font-family:var(--bold-font);
@@ -70,12 +70,25 @@ p { font-family: var(--paragraph-font);
  .bella, img{
     margin-top: 100px;
  } 
+ .weatherPic, img{
+    margin-left: 70px;
+    margin-top: 190px;
+ }
+ 
+ .reviewsPic,img{
+    margin-top: 120px;
+ }
 .name{
     display: flex;
     justify-content: center;
 }
 
-
+.heading{
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background-color: white;
+    
+}
 .bellaBtn{
     border: 2px solid black;
     padding: 10px 50px;
@@ -144,8 +157,6 @@ p { font-family: var(--paragraph-font);
  .bellaBtn, .weatherBtn, .reviewsBtn{
     width: 100%;
  }  
- img{
-    display: none;
- }
+ 
  
 }
