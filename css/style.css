@@ -208,4 +208,7 @@ border: 2px solid black;
         margin-top: 0;
         margin-bottom: 100px;
     }
+    .paragraph1,div{
+        padding-top: 50px;
+    }
 }
