@@ -30,6 +30,10 @@ h1{
     color: var(--burgundy--);
 
 }
+
+.aboutH1, h1{
+    font-size: 100px;
+}
 h1,p{
     display: flex;
     justify-content: center;
@@ -62,29 +66,30 @@ p { font-family: var(--paragraph-font);
     font-weight: 300;
     }
  img{
-    
-    padding: 25px;
     border: 3px solid black;
     border-radius: 15px;
  }  
  .bella, img{
     margin-top: 100px;
     background: var(--bg-color-dark-grey);
+    padding: 30px;
  } 
  .weatherPic, img{
     margin-left: 70px;
     margin-top: 190px;
     background: var(--bg-color-dark-grey);
+    padding: 30px;
  }
  
  .reviewsPic,img{
     margin-top: 120px;
     background: var(--bg-color-dark-grey);
+    padding: 30px;
  }
 
  .meImg,img{
     margin-left:0;
-    padding: 40px;
+    padding: 35px;
     background: var(--burgundy--);
  }
  .paragraph1, div{
