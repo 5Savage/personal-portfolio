@@ -49,14 +49,15 @@ h2{
 
 h3{
     font-family: var(--bold-font);
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-top: 100px;
+    text-decoration: dashed;
     
 }
 p { font-family: var(--paragraph-font);
     font-size: 25px;
-    line-height: 1;
+    line-height: 1.5;
     color: black;
     font-weight: 300;
     }
@@ -73,3 +74,54 @@ p { font-family: var(--paragraph-font);
     display: flex;
     justify-content: center;
 }
+
+
+    
+
+.bellaBtn{
+    border: 2px solid black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: var(--mustard-yellow);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    width: 50%;
+    color: white;
+    font-family: var(--bold-font);
+    font-size: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   
+}
+
+.weatherBtn{
+    border: 2px solid black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: var(--dark-green);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    width: 50%;
+    color: white;
+    font-family: var(--bold-font);
+    font-size: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.reviewsBtn{
+    border: 2px solid black;
+        padding: 10px 50px;
+        border-radius: 5px;
+        background: var(--burgundy--);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        width: 50%;
+        color: white;
+        font-family: var(--bold-font);
+        font-size: 25px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);}
