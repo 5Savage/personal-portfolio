@@ -168,6 +168,7 @@ p { font-family: var(--paragraph-font);
         display: flex;
         justify-content: center;
         margin-top: 35px;
+        margin-bottom: 40px;
         width: 50%;
         color: white;
         font-family: var(--bold-font);
@@ -207,6 +208,7 @@ border: 2px solid black;
   p{
     font-size: 25px;
   }
+  
  .bellaBtn, .weatherBtn, .reviewsBtn, .contactMeBtn{
     width: 100%;
     margin-left: 0;
@@ -219,17 +221,20 @@ border: 2px solid black;
     }
     .aboutContainerRow, div{
         padding: 0;
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .meImg, img{
         margin-top: 0;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .paragraph1,div{
         padding-top: 50px;
     }
     .container-fluid, div{
         margin-top: 0;
+    }
+    .emptySpace, div{
+        padding: 0;
     }
     .nav-link, a{
         margin-left: 30px;
