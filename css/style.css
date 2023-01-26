@@ -76,8 +76,6 @@ p { font-family: var(--paragraph-font);
 }
 
 
-    
-
 .bellaBtn{
     border: 2px solid black;
     padding: 10px 50px;
@@ -125,3 +123,29 @@ p { font-family: var(--paragraph-font);
         font-family: var(--bold-font);
         font-size: 25px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);}
+
+@media(max-width:600px){
+   .head, p{
+    font-size: 55px; 
+   }
+  h1{
+    font-size: 70px;} 
+  h2{
+    font-size: 20px;
+    margin: 0;
+  } 
+  h3{
+    font-size: 42px;
+    margin-top: 0;
+  } 
+  p{
+    font-size: 25px;
+  }
+ .bellaBtn, .weatherBtn, .reviewsBtn{
+    width: 100%;
+ }  
+ img{
+    display: none;
+ }
+ 
+}
