@@ -80,7 +80,7 @@ p { font-family: var(--paragraph-font);
  }
 
  .meImg,img{
-    margin-right: 70px;
+    margin-left:0;
     padding: 40px;
     background: var(--burgundy--);
  }
@@ -152,6 +152,21 @@ p { font-family: var(--paragraph-font);
         font-size: 25px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);}
 
+.contactMeBtn{
+border: 2px solid black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: var(--mustard-yellow);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    width: 50%;
+    color: white;
+    font-family: var(--bold-font);
+    font-size: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}        
 @media(max-width:600px){
    .head, p{
     font-size: 55px; 
@@ -169,9 +184,20 @@ p { font-family: var(--paragraph-font);
   p{
     font-size: 25px;
   }
- .bellaBtn, .weatherBtn, .reviewsBtn{
+ .bellaBtn, .weatherBtn, .reviewsBtn, .contactMeBtn{
     width: 100%;
  }  
- 
- 
+}
+
+@media(max-width:600px){
+    .aboutH1, h1{
+        font-size: 60px; 
+    }
+    .aboutContainerRow, div{
+        padding: 0;
+    }
+    .meImg, img{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
 }
