@@ -14,6 +14,8 @@
 
 body{
     background-color: var(--bg-color);
+    margin-top: 10px;
+    
     
 }
 h1{
@@ -80,13 +82,16 @@ p { font-family: var(--paragraph-font);
     background: var(--bg-color-dark-grey);
     padding: 30px;
  }
+
  
  .reviewsPic,img{
     margin-top: 120px;
     background: var(--bg-color-dark-grey);
     padding: 30px;
  }
-
+ .nav-link, a{
+    font-family: var(--bold-font);
+ }
  .meImg,img{
     margin-left:0;
     padding: 35px;
@@ -102,13 +107,17 @@ p { font-family: var(--paragraph-font);
     display: flex;
     justify-content: center;
 }
-.aboutContainer{
-    
+.container-fluid, div{
+    padding: 3px;
 }
 
+.aboutContainerRow{
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
 .heading{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 50px;
     background-color: white;
     
 }
@@ -128,7 +137,12 @@ p { font-family: var(--paragraph-font);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
    
 }
-
+.navbar-brand{
+    margin-left: 20px;
+    font-family: var(--cursive-font);
+    font-size: 40px;
+    
+}
 .weatherBtn{
     border: 2px solid black;
     padding: 10px 50px;
@@ -169,6 +183,7 @@ border: 2px solid black;
     display: flex;
     justify-content: center;
     margin-top: 35px;
+    
     width: 50%;
     color: white;
     font-family: var(--bold-font);
@@ -194,6 +209,7 @@ border: 2px solid black;
   }
  .bellaBtn, .weatherBtn, .reviewsBtn, .contactMeBtn{
     width: 100%;
+    margin-left: 0;
  }  
 }
 
@@ -203,6 +219,7 @@ border: 2px solid black;
     }
     .aboutContainerRow, div{
         padding: 0;
+        margin-top: 50px;
     }
     .meImg, img{
         margin-top: 0;
@@ -210,5 +227,14 @@ border: 2px solid black;
     }
     .paragraph1,div{
         padding-top: 50px;
+    }
+    .container-fluid, div{
+        margin-top: 0;
+    }
+    .nav-link, a{
+        margin-left: 30px;
+    }
+    .navbar-toggler,button{
+       margin-right: 25px; 
     }
 }
