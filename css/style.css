@@ -133,12 +133,19 @@ p { font-family: var(--paragraph-font);
  }
  .nav-link, a{
     font-family: var(--bold-font);
+    padding: 0;
  }
  .meImg,img{
     margin-left:0;
     padding: 35px;
     background: var(--burgundy--);
     margin-top: 75px;
+ }
+ .contactMeImg, img{
+    background: var(--mustard-yellow);
+    margin-top: 120px;
+    margin-bottom: 70px;
+    
  }
  .paragraph1, div{
    padding: 50px;
@@ -161,7 +168,7 @@ p { font-family: var(--paragraph-font);
     margin-bottom: 100px;
 }
 .heading{
-    padding-top: 120px;
+    padding-top: 140px;
     padding-bottom: 50px;
     background-color: white;
     
