@@ -85,8 +85,18 @@ p { font-family: var(--paragraph-font);
   
  li, a{
     text-decoration: none;
-    color: white;
+    
  }
+
+ footer{
+    margin: 40px 0;
+ }
+ .footer-email{
+    color: black;
+    font-size: 24px;
+ }
+
+
 
  .email-link,.github,.linkedin{
     border: 2px solid black; 
@@ -96,6 +106,7 @@ p { font-family: var(--paragraph-font);
     border-radius: 5px;
     background: var(--mustard-yellow);
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    color: white;
  }
 
  .github{
@@ -103,12 +114,14 @@ p { font-family: var(--paragraph-font);
     border-radius: 5px;
     background: var(--burgundy--);
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    color: white;
  }
  .linkedin{
     padding: 10px 130px;
     border-radius: 5px;
     background: var(--dark-green);
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    color: white;
  }
 
  .contactPageSection{
@@ -135,6 +148,14 @@ p { font-family: var(--paragraph-font);
     font-family: var(--bold-font);
     padding: 0;
  }
+
+ footer.social-links, a{
+    margin: 0 20px;
+    color: var(--dark-green);
+    font-size: 25px;
+    
+ }
+
  .meImg,img{
     margin-left:0;
     padding: 35px;
@@ -279,10 +300,11 @@ border: 2px solid black;
     .aboutContainerRow, div{
         padding: 0;
         margin-top: 100px;
+        margin-bottom: 0;
     }
     .meImg, img{
         margin-top: 0;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .paragraph1,div{
         padding-top: 50px;
@@ -316,7 +338,8 @@ border: 2px solid black;
     } 
     .contactMeImg{
         width: 400px;
-        margin-top: 40px;  
+        margin-top: 0;  
+        margin-bottom: 0;
     }
     .meImgContainer{
        padding: 50px; 
