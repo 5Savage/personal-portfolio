@@ -108,7 +108,15 @@ p { font-family: var(--paragraph-font);
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
     color: white;
  }
-
+ .openSourceLink,.openSourceLinkP{
+    font-size: 15px;
+    color: grey;
+    font-family: var(--paragraph-font);
+    margin: 0;
+ }
+ .openSourceLink{
+    text-decoration: underline;
+ }
  .github{
     padding: 10px 138px;
     border-radius: 5px;
