@@ -74,18 +74,45 @@ p { font-family: var(--paragraph-font);
  ul{
     text-align: center;
     list-style: none;
+    
  } 
  li{
     font-family: var(--paragraph-font);
     font-size: 25px;
-    line-height: 2.5;
+    line-height: 3.5;
+    
  }
   
  li, a{
     text-decoration: none;
+    color: white;
  }
- .contactPageSection,h3{
-    margin-top: 200px;
+
+ .email-link,.github,.linkedin{
+    border: 2px solid black; 
+ }
+ .email-link{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: var(--mustard-yellow);
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+ }
+
+ .github{
+    padding: 10px 138px;
+    border-radius: 5px;
+    background: var(--burgundy--);
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+ }
+ .linkedin{
+    padding: 10px 130px;
+    border-radius: 5px;
+    background: var(--dark-green);
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+ }
+
+ .contactPageSection{
+    font-size: 90px;
  }
  .bella, img{
     margin-top: 100px;
