@@ -282,6 +282,7 @@ border: 2px solid black;
     }
     .paragraph1,div{
         padding-top: 50px;
+        padding-left: 50px;
     }
     .container-fluid, div{
         margin-top: 0;
