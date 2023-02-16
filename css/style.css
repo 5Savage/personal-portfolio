@@ -58,8 +58,10 @@ h3{
     font-size: 60px;
     text-align: center;
     margin-top: 100px;
-    
-    
+}
+
+.myCerts,h4{
+    margin-top: 0;
 }
 p { font-family: var(--paragraph-font);
     font-size: 25px;
@@ -152,6 +154,17 @@ p { font-family: var(--paragraph-font);
     background: var(--bg-color-dark-grey);
     padding: 30px;
  }
+
+ .awardsCotainer{
+  margin: 0 60px;
+ }
+ .introCert, .webDevCert, .responsiveCert, img{
+  padding: 0;
+  margin-top: 25px;
+  
+ }
+
+
  .nav-link, a{
     font-family: var(--bold-font);
     padding: 0;
